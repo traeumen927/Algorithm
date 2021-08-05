@@ -12,11 +12,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let result = solution([1, 2, 3, 2], "right")
-        
-        print(result)
     }
-
-
 }
 
