@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1B7CA20326BB6E2C00A22F03 /* PressKeypad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7CA20226BB6E2C00A22F03 /* PressKeypad.swift */; };
 		1B7CA20626BB7FF900A22F03 /* RecommendationID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7CA20526BB7FF900A22F03 /* RecommendationID.swift */; };
+		1B7CA20A26BB91E800A22F03 /* NumericAndEngWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7CA20926BB91E800A22F03 /* NumericAndEngWord.swift */; };
 		1B80129E26BAC89200551F8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80129D26BAC89200551F8C /* AppDelegate.swift */; };
 		1B8012A026BAC89200551F8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80129F26BAC89200551F8C /* SceneDelegate.swift */; };
 		1B8012A226BAC89200551F8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8012A126BAC89200551F8C /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		1B7CA20226BB6E2C00A22F03 /* PressKeypad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressKeypad.swift; sourceTree = "<group>"; };
 		1B7CA20526BB7FF900A22F03 /* RecommendationID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationID.swift; sourceTree = "<group>"; };
+		1B7CA20926BB91E800A22F03 /* NumericAndEngWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericAndEngWord.swift; sourceTree = "<group>"; };
 		1B80129A26BAC89200551F8C /* Algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B80129D26BAC89200551F8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B80129F26BAC89200551F8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				1B7CA20226BB6E2C00A22F03 /* PressKeypad.swift */,
 				1B7CA20526BB7FF900A22F03 /* RecommendationID.swift */,
+				1B7CA20926BB91E800A22F03 /* NumericAndEngWord.swift */,
 			);
 			path = Level1;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			files = (
 				1B8012A226BAC89200551F8C /* ViewController.swift in Sources */,
 				1B80129E26BAC89200551F8C /* AppDelegate.swift in Sources */,
+				1B7CA20A26BB91E800A22F03 /* NumericAndEngWord.swift in Sources */,
 				1B7CA20626BB7FF900A22F03 /* RecommendationID.swift in Sources */,
 				1B8012A026BAC89200551F8C /* SceneDelegate.swift in Sources */,
 				1B7CA20326BB6E2C00A22F03 /* PressKeypad.swift in Sources */,
