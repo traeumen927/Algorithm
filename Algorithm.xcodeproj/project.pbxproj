@@ -10,6 +10,8 @@
 		1B7CA20326BB6E2C00A22F03 /* PressKeypad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7CA20226BB6E2C00A22F03 /* PressKeypad.swift */; };
 		1B7CA20626BB7FF900A22F03 /* RecommendationID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7CA20526BB7FF900A22F03 /* RecommendationID.swift */; };
 		1B7CA20A26BB91E800A22F03 /* NumericAndEngWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7CA20926BB91E800A22F03 /* NumericAndEngWord.swift */; };
+		1B7CA20D26BBACF900A22F03 /* KeepDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7CA20C26BBACF900A22F03 /* KeepDistance.swift */; };
+		1B7CA21026BBB56600A22F03 /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7CA20F26BBB56600A22F03 /* BFS.swift */; };
 		1B80129E26BAC89200551F8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80129D26BAC89200551F8C /* AppDelegate.swift */; };
 		1B8012A026BAC89200551F8C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80129F26BAC89200551F8C /* SceneDelegate.swift */; };
 		1B8012A226BAC89200551F8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8012A126BAC89200551F8C /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 		1B7CA20226BB6E2C00A22F03 /* PressKeypad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressKeypad.swift; sourceTree = "<group>"; };
 		1B7CA20526BB7FF900A22F03 /* RecommendationID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendationID.swift; sourceTree = "<group>"; };
 		1B7CA20926BB91E800A22F03 /* NumericAndEngWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericAndEngWord.swift; sourceTree = "<group>"; };
+		1B7CA20C26BBACF900A22F03 /* KeepDistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeepDistance.swift; sourceTree = "<group>"; };
+		1B7CA20F26BBB56600A22F03 /* BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
 		1B80129A26BAC89200551F8C /* Algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B80129D26BAC89200551F8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B80129F26BAC89200551F8C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				1B7CA20426BB6E8C00A22F03 /* Level1 */,
+				1B7CA20B26BBACC700A22F03 /* Level2 */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -59,6 +64,22 @@
 				1B7CA20926BB91E800A22F03 /* NumericAndEngWord.swift */,
 			);
 			path = Level1;
+			sourceTree = "<group>";
+		};
+		1B7CA20B26BBACC700A22F03 /* Level2 */ = {
+			isa = PBXGroup;
+			children = (
+				1B7CA20C26BBACF900A22F03 /* KeepDistance.swift */,
+			);
+			path = Level2;
+			sourceTree = "<group>";
+		};
+		1B7CA20E26BBB54D00A22F03 /* Tip */ = {
+			isa = PBXGroup;
+			children = (
+				1B7CA20F26BBB56600A22F03 /* BFS.swift */,
+			);
+			path = Tip;
 			sourceTree = "<group>";
 		};
 		1B80129126BAC89200551F8C = {
@@ -80,6 +101,7 @@
 		1B80129C26BAC89200551F8C /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				1B7CA20E26BBB54D00A22F03 /* Tip */,
 				1B7CA20126BB6D5100A22F03 /* Programmers */,
 				1B80129D26BAC89200551F8C /* AppDelegate.swift */,
 				1B80129F26BAC89200551F8C /* SceneDelegate.swift */,
@@ -165,9 +187,11 @@
 				1B8012A226BAC89200551F8C /* ViewController.swift in Sources */,
 				1B80129E26BAC89200551F8C /* AppDelegate.swift in Sources */,
 				1B7CA20A26BB91E800A22F03 /* NumericAndEngWord.swift in Sources */,
+				1B7CA20D26BBACF900A22F03 /* KeepDistance.swift in Sources */,
 				1B7CA20626BB7FF900A22F03 /* RecommendationID.swift in Sources */,
 				1B8012A026BAC89200551F8C /* SceneDelegate.swift in Sources */,
 				1B7CA20326BB6E2C00A22F03 /* PressKeypad.swift in Sources */,
+				1B7CA21026BBB56600A22F03 /* BFS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
